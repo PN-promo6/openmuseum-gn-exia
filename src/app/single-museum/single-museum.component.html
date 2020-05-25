@@ -1,16 +1,6 @@
 <div class="card">
   <div class="card-body">
-    <h2 class="card-title">{{name}}</h2>
-    <p class="card-text">{{opening}}</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">{{adress}}</li>
-    <li class="list-group-item">{{zip}}</li>
-    <li class="list-group-item">{{city}}</li>
-    <li class="list-group-item"> <a href="tel:{{phone}}">{{telephone}}</a></li>
-  </ul>
-  <div class="card-body">
-    <a href="{{website}}" class="card-link">{{website}}</a>
-    <button routerLink="museums/:id" type="button" class="btn btn-outline-primary">Précédent</button>
+    <h2 class="card-title">{{ museum.name }}</h2>
+    <p class="list-group-item">{{ museum.city }}</p>
   </div>
 </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MuseumService } from './services/openmuseum.service'
+import { MuseumService } from './services/OpenMuseum/openmuseum.service'
 
 @Component({
   selector: 'app-root',
